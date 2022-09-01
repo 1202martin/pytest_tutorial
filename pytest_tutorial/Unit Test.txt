@@ -1,0 +1,28 @@
+Unit Testing
+- A SW testing methodology used to test inidividual entities of src code for variety of purposes.
+- like working with indiv. bricks- bricks are the individual tests
+- done for cost reduction
+
+Testing Frameworks in Python
+- unittest
+- nose
+- PyTest	(most use cases; simple to work with)
+
+
+
+==================================================================================================================
+						8/29 Notes
+==================================================================================================================
+* Unit Testing : automated tests (usually functions) that are written to check if the src code is working as intended.
+	- Results in either "pass" or "fail"
+
++ Unit testing ensures that the existing code functions normally, and can be used to validate whether the newly added
+portion of the code is properly functioning or not, and is not affecting the existing code to malfunction.
+
+* pytest : framework used for unit testing in Python
+
++ Essentially pytest is operated by running the command "pytest" on termial.
+It will find the necessary tests by the way they have been named in the directory.
+Files whose names start // end with  "test" are recognized as tests by the pytest library
+
+
